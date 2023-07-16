@@ -87,7 +87,7 @@ public class Utilities {
     }
 
     public static String getAndroidVersion() {
-        return SystemProperties.get("ro.alpha.version", Build.VERSION.RELEASE);
+        return SystemProperties.get("ro.sigma.version", Build.VERSION.RELEASE);
     }
 
     public static String getTag() {
